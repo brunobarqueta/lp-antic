@@ -1,0 +1,6 @@
+@import 'typeface-merriweather';
+@import 'typeface-varta';
+@import 'typeface-karla';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
