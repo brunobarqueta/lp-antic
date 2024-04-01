@@ -19,7 +19,7 @@ export default {
                 karla: ['Karla', 'sans-serif'],
             },
             backgroundImage: {
-                'hero-pattern': "url('/src/assets/hero-bg.svg')",
+                'hero-pattern': "url('/src/assets/hero-bg.jpg')",
             }
         },
     },

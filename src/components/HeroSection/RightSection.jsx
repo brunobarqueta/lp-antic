@@ -1,4 +1,4 @@
-import heroBg from "../../assets/hero-bg.svg";
+import heroBg from "../../assets/hero-bg.jpg";
 
 const RightSection = () => {
   return (
