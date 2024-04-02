@@ -10,3 +10,13 @@
     background-color: #a7a7a7;
     border-radius: 6px;
 }
+
+@media (max-width: 768px) {
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}

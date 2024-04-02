@@ -25,7 +25,7 @@ function App() {
 	};
 
 	return (
-		<div className="bg-primary flex flex-col h-screen w-screen overflow-x-hidden">
+		<div className="bg-primary flex flex-col h-screen w-screen overflow-x-hidden scrollbar-hide">
 			<HeroSection toggleMenu={toggleMenu} isOpen={isOpen} handleSlideDown={handleSlideDown} />
 
 			<InfoSection />
