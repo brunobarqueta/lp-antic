@@ -13,7 +13,7 @@ const EmailButton = () => {
 
 const LatestTrends = () => {
 	return (
-		<div className="flex flex-col md:flex-row h-full w-full mt-72 md:mt-10 bg-white">
+		<div className="flex flex-col md:flex-row h-full w-full mt-10 bg-white">
 			<div className="w-full md:w-1/2 flex flex-col px-10 py-10">
 				<h2 className="text-3xl text-black-title font-merriweather tracking-tighter font-thin">Be aware of the latest trends</h2>
 				<p className="mt-2 text-sm md:text-md text-secondary font-varta">Stay informed of new trends, but also of our various offers.</p>

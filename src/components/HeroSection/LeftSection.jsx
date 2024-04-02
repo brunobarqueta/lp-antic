@@ -12,9 +12,9 @@ const NavigationList = ({ navItems }) => (
 );
 const Header = ({ toggleMenu }) => (
 	<div className="md:hidden flex justify-between items-center">
-		<h1 className="mt-6 ml-6 text-white font-bold font-merriweather tracking-wider text-3xl">antic</h1>
-		<button onClick={toggleMenu} className="flex text-white opacity-50 focus:outline-none mt-6 mr-4">
-			<Menu className="w-8 h-8" />
+		<h1 className="mt-10 ml-8 text-white font-bold font-merriweather tracking-wider text-4xl md:text-3xl">antic</h1>
+		<button onClick={toggleMenu} className="flex text-white opacity-50 focus:outline-none mt-10 mr-4">
+			<Menu className="w-12 h-12" />
 		</button>
 	</div>
 );
@@ -29,7 +29,7 @@ const LeftSection = ({ toggleMenu, isOpen, handleSlideDown }) => {
 			</div>
 			<Header toggleMenu={toggleMenu} />
 			{isOpen && (
-				<ul className="absolute top-0 right-0 mt-12 mr-4 p-4 bg-primary border border-gray-200 rounded shadow-md font-varta text-secondary">
+				<ul className="absolute top-0 right-0 mt-24 mr-4 p-4 bg-primary border border-gray-200 rounded shadow-md font-varta text-secondary">
 					{navItems.map((item, index) => (
 						<li key={index} className="text-md mt-2">
 							{item}
@@ -45,6 +45,7 @@ const LeftSection = ({ toggleMenu, isOpen, handleSlideDown }) => {
 					<ChevronDown onClick={handleSlideDown} className="md:text-logo hover:text-antic-brown text-2xl" />
 				</div>
 			</div>
+			<div></div>
 		</div>
 	);
 };
